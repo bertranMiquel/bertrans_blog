@@ -37,9 +37,9 @@ To identify structural bottlenecks, we use **effective resistance**.
 
 Effective resistance comes from the electrical-network analogy: a graph can be viewed as a network where edges act like wires and information can flow through all available paths <d-cite key="DoyleSnell1984"></d-cite><d-cite key="KleinRandic1993"></d-cite>. If two nodes are connected by many alternative routes, their effective resistance is low. If communication between them depends on narrow bottlenecks, their effective resistance is high.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <img src="/posts/effective-resistance-rewiring/images/resistance_explanation.png" class="img-fluid rounded z-depth-1" alt="Effective resistance as a graph bottleneck signal">
+<div class="row" style="grid-template-columns: minmax(0, 1fr); justify-items: center;">
+  <div class="col-sm mt-3 mt-md-0" style="width: 100%;">
+    <img src="/posts/effective-resistance-rewiring/images/resistance_explanation.png" class="img-fluid rounded z-depth-1" style="width: 100%;" alt="Effective resistance as a graph bottleneck signal">
   </div>
 </div>
 
