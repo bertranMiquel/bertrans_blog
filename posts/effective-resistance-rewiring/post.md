@@ -37,6 +37,16 @@ To identify structural bottlenecks, we use **effective resistance**.
 
 Effective resistance comes from the electrical-network analogy: a graph can be viewed as a network where edges act like wires and information can flow through all available paths <d-cite key="DoyleSnell1984"></d-cite><d-cite key="KleinRandic1993"></d-cite>. If two nodes are connected by many alternative routes, their effective resistance is low. If communication between them depends on narrow bottlenecks, their effective resistance is high.
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    <img src="/posts/effective-resistance-rewiring/images/resistance_explanation.png" class="img-fluid rounded z-depth-1" alt="Effective resistance as a graph bottleneck signal">
+  </div>
+</div>
+
+<div class="caption">
+Effective resistance measures how easily information can flow between two nodes through all available paths. Node pairs connected through many alternative routes have low resistance, while pairs separated by narrow bottlenecks have high resistance.
+</div>
+
 This makes effective resistance useful for studying over-squashing because it captures global, multi-path connectivity rather than only shortest-path distance or local neighborhood structure.
 
 For an undirected connected graph with Laplacian \(L\), the effective resistance between nodes \(i\) and \(j\) is:
